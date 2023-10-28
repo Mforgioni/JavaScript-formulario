@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: sans-serif;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	min-width: 50%;
+	height: 54rem;
+    border: solid 3px black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 12px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+#nombre, #apellido, #correo {
+    width: 19rem;
+    height: 2.6rem;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 5%;
+    padding: 5px;
+    box-shadow: 5px 5px 12px;
+}
+#nombre:hover, #apellido:hover, #correo:hover {
+    background-color: rgb(159, 159, 228);
+}
+#nombre::placeholder, #apellido::placeholder, #correo::placeholder {
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+#pais {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5%;
+    border: solid 1px black;
+    box-shadow: 5px 5px 12px;
+}
+#pais:hover {
+    background-color: rgb(159, 159, 228);
+}
+#fecha {
+    width: 10rem;
+    height: 2rem;
+    border: solid 1px black;
+    border-radius: 5%;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 5px 5px 12px;
+}
+#fecha:hover {
+    background-color: rgb(159, 159, 228);
+}
+#boton {
+    width: 12rem;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    border: solid 1px black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 12px;
+}
+#boton:hover {
+    background-color: rgb(109, 235, 104);
+}
+.base {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    min-width: 40rem;
+    height: 10rem;
+    padding: 0.5rem;
+    text-align: center;
+    justify-items: auto;
+    border-radius: 3%;
+    border: solid 3px black;
+    box-shadow: 5px 5px 12px;
+    background-color: rgb(190, 236, 162);
+  }
+  
+  .tabla {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid black;
+  }

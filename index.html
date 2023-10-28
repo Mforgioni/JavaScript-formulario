@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/estilo.css" />
+    <script defer src="javascript/programas.js"></script>
+  </head>
+  <body>
+
+    <main class="contenedor">
+
+      <form id="formulario" action="">
+
+        <input type="text" id="nombre" placeholder="Nombre completo...">
+        <input type="text" id="apellido" placeholder="Apellido...">
+        <input id="correo" type="text" placeholder="Correo electronico..." />
+
+        <select name="pais" id="pais">
+
+          <option selected disabled value="">Seleccione un Pais</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Argentina">Argentina</option>
+
+        </select>
+
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="masculino" name="sexo" value="masculino" />
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="femenino" name="sexo" value="femenino" />
+     
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type= "date" name="fecha" id="fecha">
+
+        <br>
+        <button type="button" id="boton">Guardar</button>
+        <br>
+        <div class="base" id="datos">
+
+            <thead class="tabla1" id="table">
+                <table class="table" id="tabla">
+                <tr id="datos">
+                   <th>Nombre:</th>  <th>Apellido:</th>  <th>Correo:</th>  <th>Pais:</th>  <th>Sexo:</th> <th>Nacimiento:</th>
+                </tr>
+                
+            </thead>    
+                
+           </table>
+          </div>
+      </form>     
+    </main>
+  </body>
+</html>
